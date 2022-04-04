@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000230
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.2/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -43,26 +44,102 @@ assetsSummary:
   - ProcessingModule
   - ElectrodeGroup
   - Units
-citation: Ball, Simon (2022) Jacobsen 2022 (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000230/draft
+citation: Ball, Simon; Ragnhild Irene Jacobsen; Rajeevkumar Nair; Horst Obenhaus;
+  Flavio Donato; Torstein Slettmoen; May-Britt Moser; Edvard I Moser (2022) Jacobsen
+  2022 (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000230/draft
 contributor:
 - affiliation: []
   email: simon.ball@ntnu.no
   includeInCitation: true
   name: Ball, Simon
   roleName:
+  - dcite:Maintainer
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05xg72x27
+    name: NTNU
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Ragnhild Irene Jacobsen
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05xg72x27
+    name: NTNU
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Rajeevkumar Nair
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05xg72x27
+    name: NTNU
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Horst Obenhaus
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02s6k3f65
+    name: Universität Basel
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Flavio Donato
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05xg72x27
+    name: NTNU
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Torstein Slettmoen
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05xg72x27
+    name: NTNU
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: May-Britt Moser
+  roleName:
+  - dcite:Author
+  - dcite:ProjectLeader
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05xg72x27
+    name: NTNU
+    schemaKey: Affiliation
+  email: edvard.moser@ntnu.no
+  includeInCitation: true
+  name: Edvard I Moser
+  roleName:
+  - dcite:Author
+  - dcite:ProjectLeader
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2022-04-04T10:16:48.259130+00:00'
 description: Data for "All-viral tracing of monosynaptic inputs to single birthdate-defined
   neurons in the intact brain", Jacobsen et al
+ethicsApproval: []
 id: DANDI:000230/draft
 identifier: DANDI:000230
+keywords: []
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000230/versions/draft/assets/
 name: Jacobsen 2022
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.2
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000230/draft
 version: draft
+wasGeneratedBy: []
