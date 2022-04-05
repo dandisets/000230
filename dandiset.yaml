@@ -6,6 +6,11 @@ about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: This work was supported by a GRIDCODE ERC Advanced Investigator grant
+  to E.I.M. (grant number 338865), the Research Council of Norway (RCN Centre of Excellence
+  grant to M-B.M. and E.I.M., grant number 223262), an RCN infrastructure grant to
+  E.I.M. and M-B.M. (NORBRAIN, grant number 295721), and the Kavli Foundation (M-B.M.
+  and E.I.M.).
 assetsSummary:
   approach:
   - name: electrophysiological approach
@@ -44,23 +49,18 @@ assetsSummary:
   - ProcessingModule
   - ElectrodeGroup
   - Units
-citation: Ball, Simon; Ragnhild Irene Jacobsen; Rajeevkumar Nair; Horst Obenhaus;
-  Flavio Donato; Torstein Slettmoen; May-Britt Moser; Edvard I Moser (2022) Jacobsen
-  2022 (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000230/draft
+citation: Jacobsen, Ragnhild Irene; Nair, Rajeevkumar; Obenhaus, Horst; Donato, Flavio;
+  Slettmoen, Torstein; Moser, May-Britt; Moser, Edvard I (2022) Jacobsen 2022 (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000230/draft
 contributor:
-- affiliation: []
-  email: simon.ball@ntnu.no
-  includeInCitation: true
-  name: Ball, Simon
-  roleName:
-  - dcite:Maintainer
-  schemaKey: Person
 - affiliation:
   - identifier: https://ror.org/05xg72x27
     name: NTNU
     schemaKey: Affiliation
+  email: ragnhild.i.jacobsen@ntnu.no
+  identifier: 0000-0001-9521-5044
   includeInCitation: true
-  name: Ragnhild Irene Jacobsen
+  name: Jacobsen, Ragnhild Irene
   roleName:
   - dcite:Author
   schemaKey: Person
@@ -68,8 +68,10 @@ contributor:
   - identifier: https://ror.org/05xg72x27
     name: NTNU
     schemaKey: Affiliation
+  email: rajeevkumar.r.nair@ntnu.no
+  identifier: 0000-0001-9755-0874
   includeInCitation: true
-  name: Rajeevkumar Nair
+  name: Nair, Rajeevkumar
   roleName:
   - dcite:Author
   schemaKey: Person
@@ -77,8 +79,10 @@ contributor:
   - identifier: https://ror.org/05xg72x27
     name: NTNU
     schemaKey: Affiliation
+  email: horst.obenhaus@ntnu.no
+  identifier: 0000-0002-7670-4827
   includeInCitation: true
-  name: Horst Obenhaus
+  name: Obenhaus, Horst
   roleName:
   - dcite:Author
   schemaKey: Person
@@ -86,8 +90,9 @@ contributor:
   - identifier: https://ror.org/02s6k3f65
     name: Universität Basel
     schemaKey: Affiliation
+  identifier: 0000-0002-0732-1654
   includeInCitation: true
-  name: Flavio Donato
+  name: Donato, Flavio
   roleName:
   - dcite:Author
   schemaKey: Person
@@ -95,8 +100,9 @@ contributor:
   - identifier: https://ror.org/05xg72x27
     name: NTNU
     schemaKey: Affiliation
+  identifier: 0000-0002-0959-7304
   includeInCitation: true
-  name: Torstein Slettmoen
+  name: Slettmoen, Torstein
   roleName:
   - dcite:Author
   schemaKey: Person
@@ -104,8 +110,10 @@ contributor:
   - identifier: https://ror.org/05xg72x27
     name: NTNU
     schemaKey: Affiliation
+  email: may-britt.moser@ntnu.no
+  identifier: 0000-0001-7884-3049
   includeInCitation: true
-  name: May-Britt Moser
+  name: Moser, May-Britt
   roleName:
   - dcite:Author
   - dcite:ProjectLeader
@@ -115,12 +123,32 @@ contributor:
     name: NTNU
     schemaKey: Affiliation
   email: edvard.moser@ntnu.no
+  identifier: 0000-0003-0226-5566
   includeInCitation: true
-  name: Edvard I Moser
+  name: Moser, Edvard I
   roleName:
   - dcite:Author
   - dcite:ProjectLeader
   - dcite:ContactPerson
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05xg72x27
+    name: NTNU
+    schemaKey: Affiliation
+  email: simon.ball@ntnu.no
+  includeInCitation: false
+  name: Ball, Simon
+  roleName:
+  - dcite:Maintainer
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/05xg72x27
+    name: NTNU
+    schemaKey: Affiliation
+  includeInCitation: false
+  name: Waade, Haagen
+  roleName:
+  - dcite:Maintainer
   schemaKey: Person
 dateCreated: '2022-04-04T10:16:48.259130+00:00'
 description: Data for "All-viral tracing of monosynaptic inputs to single birthdate-defined
