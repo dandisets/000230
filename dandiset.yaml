@@ -34,9 +34,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 279692632
-  numberOfFiles: 9
-  numberOfSubjects: 2
+  numberOfBytes: 553794904
+  numberOfFiles: 18
+  numberOfSubjects: 4
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -51,7 +51,7 @@ assetsSummary:
   - Units
 citation: Jacobsen, Ragnhild Irene; Nair, Rajeevkumar; Obenhaus, Horst; Donato, Flavio;
   Slettmoen, Torstein; Moser, May-Britt; Moser, Edvard I (2022) Jacobsen 2022 (Version
-  0.220422.0713) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000230/0.220422.0713
+  0.220426.0814) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000230/0.220426.0814
 contributor:
 - affiliation:
   - identifier: https://ror.org/05xg72x27
@@ -151,28 +151,28 @@ contributor:
   - dcite:Maintainer
   schemaKey: Person
 dateCreated: '2022-04-04T10:16:48.259130+00:00'
-datePublished: '2022-04-22T07:13:13.963420+00:00'
+datePublished: '2022-04-26T08:14:00.198369+00:00'
 description: Data for "All-viral tracing of monosynaptic inputs to single birthdate-defined
   neurons in the intact brain", Jacobsen et al
-doi: 10.48324/dandi.000230/0.220422.0713
+doi: 10.48324/dandi.000230/0.220426.0814
 ethicsApproval: []
-id: DANDI:000230/0.220422.0713
+id: DANDI:000230/0.220426.0814
 identifier: DANDI:000230
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://dandiarchive.s3.amazonaws.com/dandisets/000230/0.220422.0713/assets.yaml
+- https://dandiarchive.s3.amazonaws.com/dandisets/000230/0.220426.0814/assets.yaml
 name: Jacobsen 2022
 protocol: []
 publishedBy:
-  endDate: '2022-04-22T07:13:13.963420+00:00'
-  id: urn:uuid:c6da2e9b-acad-4d06-bc78-4a734760934c
+  endDate: '2022-04-26T08:14:00.198369+00:00'
+  id: urn:uuid:cfd85021-7b9b-4ce5-bc17-dd510d8c1a6a
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2022-04-22T07:13:13.963420+00:00'
+  startDate: '2022-04-26T08:14:00.198369+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:c0dc632a-9af5-4f02-bda9-51e62208b01c
+  - id: urn:uuid:487e7e84-b8c8-48b7-8a9c-33bb61bcc16a
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -182,6 +182,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.2
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000230/0.220422.0713
-version: 0.220422.0713
+url: https://dandiarchive.org/dandiset/000230/0.220426.0814
+version: 0.220426.0814
 wasGeneratedBy: []
