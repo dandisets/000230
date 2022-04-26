@@ -51,7 +51,7 @@ assetsSummary:
   - ElectricalSeries
 citation: Jacobsen, Ragnhild Irene; Nair, Rajeevkumar; Obenhaus, Horst; Donato, Flavio;
   Slettmoen, Torstein; Moser, May-Britt; Moser, Edvard I (2022) Jacobsen 2022 (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000230/draft
+  0.220426.1130) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000230/0.220426.1130
 contributor:
 - affiliation:
   - identifier: https://ror.org/05xg72x27
@@ -151,23 +151,37 @@ contributor:
   - dcite:Maintainer
   schemaKey: Person
 dateCreated: '2022-04-04T10:16:48.259130+00:00'
+datePublished: '2022-04-26T11:30:12.371753+00:00'
 description: Data for "All-viral tracing of monosynaptic inputs to single birthdate-defined
   neurons in the intact brain", Jacobsen et al
+doi: 10.48324/dandi.000230/0.220426.1130
 ethicsApproval: []
-id: DANDI:000230/draft
+id: DANDI:000230/0.220426.1130
 identifier: DANDI:000230
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000230/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000230/0.220426.1130/assets.yaml
 name: Jacobsen 2022
 protocol: []
+publishedBy:
+  endDate: '2022-04-26T11:30:12.371753+00:00'
+  id: urn:uuid:d67b22ea-028d-4b93-9a1e-b4030569886d
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2022-04-26T11:30:12.371753+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:26fb9743-3781-437c-98ca-3eaef25e4ea0
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.2
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000230/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000230/0.220426.1130
+version: 0.220426.1130
 wasGeneratedBy: []
