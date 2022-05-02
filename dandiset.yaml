@@ -49,7 +49,7 @@ assetsSummary:
   - ElectrodeGroup
   - SpatialSeries
   - ElectricalSeries
-citation: Jacobsen, Ragnhild Irene; Nair, Rajeevkumar; Obenhaus, Horst; Donato, Flavio;
+citation: Jacobsen, R Irene; Nair, Rajeevkumar R; Obenhaus, Horst A; Donato, Flavio;
   Slettmoen, Torstein; Moser, May-Britt; Moser, Edvard I (2022) Jacobsen 2022 (Version
   draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000230/draft
 contributor:
@@ -60,7 +60,7 @@ contributor:
   email: ragnhild.i.jacobsen@ntnu.no
   identifier: 0000-0001-9521-5044
   includeInCitation: true
-  name: Jacobsen, Ragnhild Irene
+  name: Jacobsen, R Irene
   roleName:
   - dcite:Author
   schemaKey: Person
@@ -71,7 +71,7 @@ contributor:
   email: rajeevkumar.r.nair@ntnu.no
   identifier: 0000-0001-9755-0874
   includeInCitation: true
-  name: Nair, Rajeevkumar
+  name: Nair, Rajeevkumar R
   roleName:
   - dcite:Author
   schemaKey: Person
@@ -82,7 +82,7 @@ contributor:
   email: horst.obenhaus@ntnu.no
   identifier: 0000-0002-7670-4827
   includeInCitation: true
-  name: Obenhaus, Horst
+  name: Obenhaus, Horst A
   roleName:
   - dcite:Author
   schemaKey: Person
@@ -150,9 +150,40 @@ contributor:
   roleName:
   - dcite:Maintainer
   schemaKey: Person
+- awardNumber: '338865'
+  contactPoint: []
+  identifier: https://ror.org/0472cxd90
+  includeInCitation: false
+  name: European Research Council
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: '223262'
+  contactPoint: []
+  identifier: https://ror.org/00epmv149
+  includeInCitation: false
+  name: Research Council of Norway
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: '295721'
+  contactPoint: []
+  identifier: https://ror.org/00epmv149
+  includeInCitation: false
+  name: Research Council of Norway
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint: []
+  identifier: https://ror.org/00kztt736
+  includeInCitation: false
+  name: The Kavli Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2022-04-04T10:16:48.259130+00:00'
 description: Data for "All-viral tracing of monosynaptic inputs to single birthdate-defined
-  neurons in the intact brain", Jacobsen et al
+  neurons in the intact brain", Jacobsen et al 2022
 ethicsApproval: []
 id: DANDI:000230/draft
 identifier: DANDI:000230
@@ -163,7 +194,13 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000230/versions/draft/assets/
 name: Jacobsen 2022
 protocol: []
-relatedResource: []
+relatedResource:
+- identifier: 'https://doi.org/10.1101/2021.10.18.464781 '
+  name: Article Pre-print
+  relation: dcite:IsCitedBy
+  repository: BioArXiV
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2021.10.18.464781v1
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.2
