@@ -184,8 +184,8 @@ contributor:
 dateCreated: '2022-04-04T10:16:48.259130+00:00'
 description: "Data for \"All-viral tracing of monosynaptic inputs to single birthdate-defined
   neurons in the intact brain\", Jacobsen et al 2022. \n\nPhotostimulation laser power:
-  sessions are labelled with the set point power. Actual power can be derived as follows:\nSet
-  point (mW)  |  Actual (mW)\n20  |  7.5\n40  |  15.1"
+  sessions are labelled with the set point power. Actual power can be derived as follows:
+  (set [mW] | actual [mW]), (20 | 7.5), (40 | 15.1)\n"
 ethicsApproval: []
 id: DANDI:000230/draft
 identifier: DANDI:000230
