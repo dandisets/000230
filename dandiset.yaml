@@ -182,8 +182,10 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2022-04-04T10:16:48.259130+00:00'
-description: Data for "All-viral tracing of monosynaptic inputs to single birthdate-defined
-  neurons in the intact brain", Jacobsen et al 2022
+description: "Data for \"All-viral tracing of monosynaptic inputs to single birthdate-defined
+  neurons in the intact brain\", Jacobsen et al 2022. \n\nPhotostimulation laser power:
+  sessions are labelled with the set point power. Actual power can be derived as follows:\nSet
+  point (mW)  |  Actual (mW)\n20  |  7.5\n40  |  15.1"
 ethicsApproval: []
 id: DANDI:000230/draft
 identifier: DANDI:000230
@@ -201,6 +203,10 @@ relatedResource:
   repository: BioArXiV
   schemaKey: Resource
   url: https://www.biorxiv.org/content/10.1101/2021.10.18.464781v1
+- identifier: doi.org/10.1016/j.crmeth.2022.100221
+  name: Published article DOI
+  relation: dcite:IsCitedBy
+  schemaKey: Resource
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.2
