@@ -13,26 +13,26 @@ acknowledgement: This work was supported by a GRIDCODE ERC Advanced Investigator
   and E.I.M.).
 assetsSummary:
   approach:
-  - name: behavioral approach
-    schemaKey: ApproachType
   - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: behavioral approach
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: signal filtering technique
-    schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: signal filtering technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
     schemaKey: MeasurementTechniqueType
   numberOfBytes: 244896176
   numberOfFiles: 9
@@ -43,12 +43,12 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
+  - ProcessingModule
+  - ElectricalSeries
+  - SpatialSeries
+  - ElectrodeGroup
   - LFP
   - Units
-  - ProcessingModule
-  - ElectrodeGroup
-  - SpatialSeries
-  - ElectricalSeries
 citation: Jacobsen, R Irene; Nair, Rajeevkumar R; Obenhaus, Horst A; Donato, Flavio;
   Slettmoen, Torstein; Moser, May-Britt; Moser, Edvard I (2022) Jacobsen 2022 (Version
   draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000230/draft
