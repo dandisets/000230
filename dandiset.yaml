@@ -54,7 +54,7 @@ assetsSummary:
   - Position
 citation: Jacobsen, R Irene; Nair, Rajeevkumar R; Obenhaus, Horst A; Donato, Flavio;
   Slettmoen, Torstein; Moser, May-Britt; Moser, Edvard I (2022) Jacobsen 2022 (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000230/draft
+  0.220506.1516) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000230/0.220506.1516
 contributor:
 - affiliation:
   - identifier: https://ror.org/05xg72x27
@@ -185,20 +185,34 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2022-04-04T10:16:48.259130+00:00'
+datePublished: '2022-05-06T15:16:15.603593+00:00'
 description: "Data for \"All-viral tracing of monosynaptic inputs to single birthdate-defined
   neurons in the intact brain\", Jacobsen et al 2022. \n\nPhotostimulation laser power:
   sessions are labelled with the set point power. Actual power can be derived as follows:
   (set [mW] | actual [mW]), (20 | 7.5), (40 | 15.1)\n"
+doi: 10.48324/dandi.000230/0.220506.1516
 ethicsApproval: []
-id: DANDI:000230/draft
+id: DANDI:000230/0.220506.1516
 identifier: DANDI:000230
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000230/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000230/0.220506.1516/assets.yaml
 name: Jacobsen 2022
 protocol: []
+publishedBy:
+  endDate: '2022-05-06T15:16:15.603593+00:00'
+  id: urn:uuid:e741a728-53f2-4c69-97f3-460e1ca6c2d7
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2022-05-06T15:16:15.603593+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:3526a40f-e6fc-4d88-9339-8a0652823c2a
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: 'https://doi.org/10.1101/2021.10.18.464781 '
   name: Article Pre-print
@@ -214,6 +228,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.2
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000230/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000230/0.220506.1516
+version: 0.220506.1516
 wasGeneratedBy: []
